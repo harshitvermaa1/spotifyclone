@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(223, 158, 71);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border-color: aqua;
+}
+/* .nav{ */
+     /* font-family:'ubuntu' , sans-serif; */
+/* } */
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: aliceblue;}
+    nav ul li{
+        padding: 34px;
+        position: sticky;
+    }
+   
+.brand img{
+    width: 44px;
+    padding: 0 0px;
+    
+}
+.brand{ 
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+ 
+nav ul li{
+    padding: 0 8px;
+}
+.coantainer{
+    min-height:75vh;
+    background-color: black;
+    color: white;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+
+    background-image: url(https://c1.wallpaperflare.com/preview/765/880/834/people-man-singing-singer.jpg);
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+   
+
+} 
+.icon{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding: -60px;
+    display: flex;
+    flex-direction: row;
+}
+#myprogressbar{
+    text-align: center;
+    width: 80vw;
+}
+.songitem{
+height: 50px;
+display: flex;
+background-color: white;
+width: 80%;
+color: black;
+margin:8px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+
+}
+.songitem img{
+    width: 70px;
+    border-radius: 34px;
+}
+    .songitemcoantainer{
+margin-top: 74px;
+    }
+
+.timestamp{
+    margin: 0 23px;
+}
+.songinfo{
+    position:relative;
+    /* position: relative; */
+    left: -209px;
+    width: 230px;
+    height: 41px;
+    margin-left: -139px;
+}
+.songinfo img{
+    width: 111px;
+   opacity: 0; 
+    transition: opacity 0.4s ease-in; 
+}
+p{
+    padding-right: 20px;
+    font-size: 20px;
+}
